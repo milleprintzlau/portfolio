@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link href="index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/ahv8gov.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>CV</title>
+
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    </head>
+
+    <body>
+ <header>
+        <nav>
+               <div class="navimg">
+        <img class="fade-scroll" src="logo.png" alt="logo">
+    </div>
+
+     <div class="links">
+            <div class="centrallinks">
+                <a href="home.html">Home</a>
+                <a href="cv.html">CV</a>
+                <a href="porto.html">Portfolio</a>
+            </div>
+             </div>
+
+        </nav>
+
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">
+
+    $(function() {
+
+                var documentEl = $(document),
+                    fadeElem = $('.fade-scroll');
+
+
+                documentEl.on('scroll', function() {
+                    var currScrollPos = documentEl.scrollTop();
+
+                    fadeElem.each(function() {
+                        var $this = $(this),
+                            elemOffsetTop = $this.offset().top;
+                        if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/400);
+                    });
+                });
+
+            });
+        </script>
+    </header>
+
+<section id="kontakt">
+    <div class="sectionwrapper">
+        <div class="container1">
+        <h3>Contact</h3>
+            <p>+4531220368</p>
+            <p>milliewienberg@gmail.com</p>
+            <p>2720 Vanløse</p>
+        </div>
+        <div class="container2">
+        <h3>Who am I?</h3>
+         <p>My name is Mille P. Wienberg, I'm studying at KEA as a multimediedesigner. I been lived in London before I started on KEA and now I live with my boyfriend in Copenhagen. If you want to know more about me, then check out my CV below. </p>
+        </div>
+        <div class="container2">
+
+
+
+        </div>
+
+    </div>
+</section>
+
+        <div class="navimg">
+        <img class="fade-scroll" src="logo.png" alt="logo">
+    </div>
+
+
+
+
+<footer>
+     <div class="wrapper">
+        <nav>
+
+        <a href="mailto:milliewienberg@gmail.com">milliewienberg@gmail.com</a>
+        <a href="tel:+4520676583">+4531220368</a>
+        <a href="https://www.facebook.com/mille.wienberg" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/millewienberg/" class="fa fa-instagram"></a>
+        </nav>
+        </div>
+    </footer>
+</body>
+</html>
