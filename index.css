@@ -2,11 +2,36 @@ img {
     width: 100%;
 }
 
-h1,
+
 h2,
 h3,
 a{
   font-family: "minion-pro-caption", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+      font-family: "minion-pro-caption", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h3 {
+    text-align: center;
+    padding: 1px 2px 1px 2px;
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.3em;
+
+}
+h4 {
+   font-family: "minion-pro-caption", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h5{
+      font-family: "minion-pro-caption", serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -16,11 +41,18 @@ p {
 
 }
 
+
+
+
+
+
 body {
+    display: flex;
+    flex-wrap: wrap;
     background-color: white;
     margin: 0;
-        display: flex;
-    flex-wrap: wrap;
+
+
 }
 
 /*---------Læs mere knap--------*/
@@ -44,7 +76,7 @@ body {
 /*--------LINKS NAV--------*/
 header {
     width: 100%;
-    height: 650px;
+    height: 100%;
 /*    background: #141126;*/
     background: url(DSC_0024_ny.jpg);
     background-size: cover;
@@ -92,16 +124,8 @@ header {
     flex-wrap: wrap;
 }
 
-#billeder .sectionwrapper{
-    flex-direction: row;
-}
 
-#billeder .column{
-    flex-basis: 200px;
-    flex-grow: 1;
-    max-width: 700px;
-    padding-top: 5em;
-}
+
 
 #info .sectionwrapper {
     justify-content: space-around;
@@ -113,59 +137,6 @@ header {
 
 }
 
-#baren .top {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding-top: 10em;
-}
-
-#baren .top .txt {
-    flex-basis: 200px;
-    flex-grow: 1;
-    padding: 0px 8em 0px 0em;
-}
-#baren .top .txt h2{
-    margin-top: 0px;
-}
-
-#baren .top .img {
-    flex-basis: 200px;
-    flex-grow: 1;
-    max-width: 510px;
-    padding: 0px 8em;
-}
-#baren .top .barenbtn {
-    padding-top: 1.4em;
-}
-
-#baren .bottom {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    padding-top: 10em;
-    padding-bottom: 2em;
-}
-
-#baren .bottom .txt {
-    flex-basis: 200px;
-    flex-grow: 1;
-    padding: 0px 0em 0px 8em;
-}
-#baren .bottom .txt h2{
-    margin-top: 0px;
-}
-
-#baren .bottom .img {
-    flex-basis: 200px;
-    flex-grow: 1;
-    max-width: 510px;
-    padding: 0px 8em;
-}
-
-#baren .bottom .barenbtn {
-    padding-top: 3em;
-}
 
 /*---------FOOTER------*/
 
@@ -210,42 +181,52 @@ footer nav a{
   color: white;
 }
 
-/*------OMBAREN-------*/
 
-#ombaren .container1 {
-    flex-basis: 500px;
-    padding: 4em 2em 2em 5em;
-}
+/*-----CV--------*/
+.cv {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
 
-#ombaren .hs-responsive-embed-youtube {
-    flex-basis: 500px;
-    padding: 20em 0em 2em 10em;
 
 }
 
-#ombaren .container3 {
-    flex-basis: 500px;
-    padding: 0em 2em 5em 5em;
-
+#kontakt .p {
+    position: relative;
+    top: 4%;
+    left: 30%;
+    text-align: center;
 }
 
-iframe{
-    border-width: 0px;
-}
 
-/*-----KONTAKT--------*/
+
 #kontakt .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
 }
-#kontakt .container1 {
-    flex-basis: 400px;
-    padding: 8em 2em 8em 19em;
+
+
+
+
+#kontakt .column {
+
+    float: left;
+    width: 40%;
+    position: relative;
+    left: 10%;
 }
-#kontakt .container2 {
-    flex-basis: 340px;
-    padding: 8em 2em 3em 8em;
+
+#kontakt .content{
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
+
+
+
+
+/*-----PORTO-----*/
+
+
 
 .row {
     margin: 0px;
@@ -254,20 +235,17 @@ iframe{
 
 .column {
     float: left;
-    width: 25%;
+    width: 100%;
+    height: 100%
+
 }
 
-/* Content */
+
 .content {
     background-color: white;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
 }
 
-@media screen and (max-width: 900px) {
-    .column {
-        width: 50%;
-    }
-}
 
 
 /*------MOBIL SITE-------*/
@@ -275,29 +253,36 @@ iframe{
 @media screen and (max-width: 420px) {
 
     header {
-        height: 250px;
+        height: 100px;
+    }
+
+    .row{
+        padding: 10px 20px 0px 20px;
+    }
+
+    .column{
+        padding: 10px 20px 10px 20px;
+    }
+
+    .content {
+            padding: 0px 0px 0px 0px;
     }
 
     .centrallinks {
         padding-bottom: 2em;
     }
 
-    #baren .top .img {
+    #kontakt .sectionwrapper {
         padding: 0px 0px 0px 0px;
     }
-    #baren .top .txt {
+    #kontakt .column  {
         padding: 10px 20px 0px 20px;
     }
 
-    #baren .bottom .img {
+    #kontakt .content{
         padding: 0px 0px 0px 0px;
     }
-    #baren .bottom .txt {
-        padding: 10px 20px 0px 20px;
-    }
-    #baren .bottom {
-        padding-bottom: 10em;
-    }
+
 
     footer nav {
         padding-left: 20px;
@@ -312,24 +297,8 @@ iframe{
         margin-left: 130px;
     }
 
-    #ombaren .container1 {
-        flex-basis: 800px;
-        padding: 4em 2em 4em 2em;
-    }
-    #ombaren .hs-responsive-embed-youtube {
-        padding: 0px;
-    }
-    #ombaren .container3 {
-        flex-basis: 500px;
-        padding:50px 5px 50px 5px;
-    }
-    #kontakt .container1 {
-        flex-basis: 400px;
-        padding: 50px 1px 50px 50px;
-    }
-    #kontakt .container2 {
-        flex-basis: 340px;
-        padding: 0px 50px 50px 50px;
-    }
-}
+
+
+
+
 
