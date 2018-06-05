@@ -247,6 +247,29 @@ iframe{
     padding: 8em 2em 3em 8em;
 }
 
+.row {
+    margin: 0px;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+
 /*------MOBIL SITE-------*/
 
 @media screen and (max-width: 420px) {
