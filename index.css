@@ -3,12 +3,51 @@ img {
 }
 
 
+/*
+
+.mig{
+    background-image: url(mig.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border-radius: 60%;
+   height: 100%;
+    width: 30%;
+    border: 8px solid white;
+    margin-bottom: 60px;
+    margin: auto;
+    display: block
+
+}
+*/
+
+
+
+/*
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    max-height: 50%;
+        margin: 0 auto;
+    padding: 2px 2px 2px 2px;
+     flex-basis: 200px;
+      align-self: auto;
+}
+*/
+
+
+
 h2,
 h3,
 a{
   font-family: "minion-pro-caption", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+h2 {
+    text-align: center;
 }
 
 h1{
@@ -26,15 +65,17 @@ h3 {
 }
 h4 {
    font-family: "minion-pro-caption", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
 }
 
 h5{
       font-family: "minion-pro-caption", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
 }
+
+
 
 p {
     font-family: 'Avenir', sans-serif;
@@ -48,10 +89,6 @@ p {
 body {
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
-    margin: 0;
-
-
 }
 
 /*---------Læs mere knap--------*/
@@ -77,8 +114,6 @@ header {
     width: 100%;
     height: 100%;
 /*    background: #141126;*/
-    background: url(DSC_0024_ny.jpg);
-    background-size: cover;
      margin: 0 auto;
 
 }
@@ -88,7 +123,6 @@ header {
     justify-content: center;
 
 }
-
 .links a {
    display: inline-block;
     text-decoration: none;
@@ -103,8 +137,6 @@ header {
     background-color: black;
     color: white;
 }
-
-
 .navimg {
     width: 63vw;
     margin: 0 auto;
@@ -116,27 +148,6 @@ header {
 
 }
 
-
-/*------- DESKTOP -------*/
-.sectionwrapper{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-
-#info .sectionwrapper {
-    justify-content: space-around;
-}
-
-#info img {
-    max-width: 500px;
-    padding-top: 7em;
-
-}
-
-
 /*---------FOOTER------*/
 
 footer {
@@ -147,8 +158,6 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
 footer nav a{
     text-decoration: none;
     color: white;
@@ -166,11 +175,9 @@ footer nav a{
   margin: 5px 2px;
     border-radius: 20px;
 }
-
 .fa:hover {
     opacity: 0.7;
 }
-
 .fa-facebook {
   background: #3B5998;
   color: white;
@@ -182,80 +189,112 @@ footer nav a{
 
 
 /*-----CV--------*/
-.cv {
+.sectionwrapper{
     width: 100%;
     height: 100%;
-    text-align: center;
-
+    display: flex;
+    flex-wrap: wrap;
 }
 
-
-#kontakt .p {
+.content{
     position: relative;
-    top: 4%;
-    left: 30%;
+    left: 20%;
+    height: 100%;
+    width: 100%;
     text-align: center;
+    margin: 10 auto;
+
+}
+.experiences{
+    position: relative;
+    left:150%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+
+
 }
 
+ul {
+    font-family: 'Avenir', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    text-align: center;
+    align-self: auto;
+    margin: 10 auto;
+}
+
+li{
+    text-align: left;
+    font-style: normal;
+    font-family: 'Avenir', sans-serif;
 
 
-#kontakt .sectionwrapper {
+}
+
+/*------PORTO-----*/
+.sectionswrapper_p{
+        width: 33.3%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
 
 }
-
-
-
-
-#kontakt .column {
-
+.column_p {
     float: left;
-    width: 40%;
-    position: relative;
-    left: 10%;
-}
-
-#kontakt .content{
-    width: 100%;
+    width: 33.3%;
     height: 100%;
-    position: relative;
-}
 
-
-
-
-/*-----PORTO-----*/
-
-
-
-.row {
-    margin: 0px;
-}
-
-
-.column {
-    float: left;
-    width: 100%;
-    height: 100%
 
 }
 
-
-.content {
+.content_p {
     background-color: white;
     padding: 10px 20px 10px 20px;
+
 }
+
+.content_pp{
+      background-color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.column_pp{
+     float: left;
+    width: 33.3%;
+    height: 100%;
+    position: relative;
+    left: 33.3%;
+}
+
+
+
+/*-----MOBIL SITE-----*/
+@media screen and (max-width: 420px)
+
+.header {
+        height: 100px;
+    }
+
+  .centrallinks {
+        padding-bottom: 2em;
+    }
+
+.mig {
+        width:80vw;
+        height:80vw;
+}
+
+
+
 
 
 
 /*------MOBIL SITE-------*/
 
-@media screen and (max-width: 420px) {
+/*
 
-    header {
-        height: 100px;
-    }
+
 
     .row{
         padding: 10px 20px 0px 20px;
@@ -269,9 +308,6 @@ footer nav a{
             padding: 0px 0px 0px 0px;
     }
 
-    .centrallinks {
-        padding-bottom: 2em;
-    }
 
 
 
@@ -303,6 +339,7 @@ footer nav a{
 
 
 
+*/
 
 
 
