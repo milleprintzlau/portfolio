@@ -2,80 +2,16 @@ img {
     width: 100%;
 }
 
-
-/*
-
-.mig{
-    background-image: url(mig.png);
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: center;
-    border-radius: 60%;
-   height: 100%;
-    width: 30%;
-    border: 8px solid white;
-    margin-bottom: 60px;
-    margin: auto;
-    display: block
-
-}
-*/
-
-
-
-/*
-.skills{
+body {
     display: flex;
     flex-wrap: wrap;
-    max-width: 50%;
-    max-height: 50%;
-        margin: 0 auto;
-    padding: 2px 2px 2px 2px;
-     flex-basis: 200px;
-      align-self: auto;
 }
-*/
 
-
-
-h2,
-h3,
 a{
   font-family: "minion-pro-caption", serif;
     font-weight: 400;
     font-style: normal;
 }
-
-h2 {
-    text-align: center;
-}
-
-h1{
-      font-family: "minion-pro-caption", serif;
-    font-weight: 600;
-    font-style: normal;
-}
-
-h3 {
-    text-align: center;
-    padding: 1px 2px 1px 2px;
-    font-family: 'Avenir', sans-serif;
-    font-size: 1.3em;
-
-}
-h4 {
-   font-family: "minion-pro-caption", serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-h5{
-      font-family: "minion-pro-caption", serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-
 
 p {
     font-family: 'Avenir', sans-serif;
@@ -83,15 +19,8 @@ p {
 }
 
 
-
-
-
-body {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 /*---------Læs mere knap--------*/
+/*
 .btn {
     background: white;
     border-radius: 4px;
@@ -106,6 +35,7 @@ body {
 
 
 }
+*/
 
 
 
@@ -113,7 +43,6 @@ body {
 header {
     width: 100%;
     height: 100%;
-/*    background: #141126;*/
      margin: 0 auto;
 
 }
@@ -142,10 +71,6 @@ header {
     margin: 0 auto;
   flex-basis: 200px;
     max-width: 700px;
-
-
-
-
 }
 
 /*---------FOOTER------*/
@@ -190,56 +115,66 @@ footer nav a{
 
 /*-----CV--------*/
 .sectionwrapper{
-    width: 100%;
-    height: 100%;
-    display: flex;
+     display: flex;
     flex-wrap: wrap;
 }
-
-.content{
-    position: relative;
-    left: 20%;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    margin: 10 auto;
-
+.row {
+    justify-content: center;
 }
-.experiences{
-    position: relative;
-    left:150%;
-    top: 0%;
+
+.column{
+    float: left;
+    width: 44.4%;
     height: 100%;
-    width: 100%;
 
 
 }
 
-ul {
-    font-family: 'Avenir', sans-serif;
-    font-size: 1em;
+
+
+/*
+.mig{
+    background-image: url(mig.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border-radius: 60%;
+   height: 100%;
+    width: 30%;
+    border: 8px solid white;
+    margin-bottom: 60px;
+    margin: auto;
+}
+*/
+
+
+
+h3 {   font-family: "minion-pro-caption", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left};
+h1,
+h4,
+h2,
+h5 {
+    font-family: "minion-pro-caption", serif;
+    font-weight: 400;
     font-style: normal;
     text-align: center;
-    align-self: auto;
-    margin: 10 auto;
 }
 
-li{
-    text-align: left;
-    font-style: normal;
-    font-family: 'Avenir', sans-serif;
 
 
-}
+
 
 /*------PORTO-----*/
-.sectionswrapper_p{
-        width: 33.3%;
-    height: 100%;
+
+.sectionwrapper_p{
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: center;
 }
+
 .column_p {
     float: left;
     width: 33.3%;
@@ -250,27 +185,15 @@ li{
 
 .content_p {
     background-color: white;
-    padding: 10px 20px 10px 20px;
-
+    padding: 20px 20px 20px 20px;
+    margin-top: 100px;
 }
 
-.content_pp{
-      background-color: white;
-    padding: 10px 20px 10px 20px;
-}
-
-.column_pp{
-     float: left;
-    width: 33.3%;
-    height: 100%;
-    position: relative;
-    left: 33.3%;
-}
 
 
 
 /*-----MOBIL SITE-----*/
-@media screen and (max-width: 420px)
+@media screen and (max-width: 700px){
 
 .header {
         height: 100px;
@@ -280,51 +203,8 @@ li{
         padding-bottom: 2em;
     }
 
-.mig {
-        width:80vw;
-        height:80vw;
-}
 
-
-
-
-
-
-/*------MOBIL SITE-------*/
-
-/*
-
-
-
-    .row{
-        padding: 10px 20px 0px 20px;
-    }
-
-    .column{
-        padding: 10px 20px 10px 20px;
-    }
-
-    .content {
-            padding: 0px 0px 0px 0px;
-    }
-
-
-
-
-
-    #kontakt .sectionwrapper {
-        padding: 0px 0px 0px 0px;
-    }
-    #kontakt .column  {
-        padding: 10px 20px 0px 20px;
-    }
-
-    #kontakt .content{
-        padding: 0px 0px 0px 0px;
-    }
-
-
-    footer nav {
+  footer nav {
         padding-left: 20px;
     }
 
@@ -336,10 +216,20 @@ li{
         margin-top: 20px;
         margin-left: 130px;
     }
+   .content {
+            padding: 0px 0px 0px 0px;
+    }
+
+
+.column_p{
+    width: 100%;
+   margin-top: 10px;
+    margin-left: 13px;
+}
 
 
 
-*/
 
+}
 
 
