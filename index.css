@@ -144,7 +144,7 @@ footer nav a{
 
 #CV h4{
     margin: 0;
-        font-family: "minion-pro-caption", serif;
+     font-family: "minion-pro-caption", serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
@@ -180,11 +180,50 @@ footer nav a{
 
 }
 
+#tilbage {
+    background-color: rgba(0, 0, 0, 0.52);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position: relative;
 
 
 
+}
+
+#bird {
+    background-image: url(bird-01%20copy.svg);
+    background-size: 100% 100%;
+
+    width: 60vw;
+    height: 33vw;
+
+    position: absolute;
+}
+
+.flying {
+    animation-duration: 5s;
+    animation-timing-function: steps(8);
+    animation-fill-mode: forwards;
+    animation-name: flying;
+}
+
+@keyframes flying {
+    from {
+        right: -30vw;
+    }
+    to {
+        right: 80vw;
+    }
+
+}
 
 
+
+/*
 
 h3 {   font-family: "minion-pro-caption", serif;
     font-weight: 400;
@@ -204,6 +243,7 @@ h5 {
     font-style: normal;
     text-align: center;
 }
+*/
 
 
 /*-------CPH-DOX-----*/
