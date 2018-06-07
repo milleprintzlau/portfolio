@@ -19,26 +19,6 @@ p {
 }
 
 
-/*---------Læs mere knap--------*/
-/*
-.btn {
-    background: white;
-    border-radius: 4px;
-    border: solid black;
-    padding: 12px 35px;
-    opacity: 0.8;
-    color: black;
-    font: 20px 'Avenir', sans-serif;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-
-}
-*/
-
-
-
 /*--------LINKS NAV--------*/
 header {
     width: 100%;
@@ -114,38 +94,95 @@ footer nav a{
 
 
 /*-----CV--------*/
+
+#CV{
+    width:100%;
+
+}
+
 .sectionwrapper{
      display: flex;
     flex-wrap: wrap;
-}
-.row {
     justify-content: center;
 }
 
+.row{
+        width: 100%;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+     flex-direction:row;
+}
+
 .column{
-    float: left;
-    width: 44.4%;
-    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
 
+#CV ul{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+
+    font-family: "minion-pro-caption", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#CV h5{
+    font-family: "minion-pro-caption", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.52);
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+#CV h4{
+    margin: 0;
+        font-family: "minion-pro-caption", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.52);
+}
+
+#CV h1{
+    font-family: "minion-pro-caption", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+#CV h2{
+       font-family: "minion-pro-caption", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+
+}
+
+#CV hr{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-width: 3px;
+    border-color: rgba(241, 109, 31, 0.39);
 
 }
 
 
 
-/*
-.mig{
-    background-image: url(mig.png);
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: center;
-    border-radius: 60%;
-   height: 100%;
-    width: 30%;
-    border: 8px solid white;
-    margin-bottom: 60px;
-    margin: auto;
-}
-*/
+
 
 
 
@@ -155,7 +192,12 @@ h3 {   font-family: "minion-pro-caption", serif;
     text-align: left};
 h1,
 h4,
-h2,
+h2 {    font-family: "minion-pro-caption", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  color:black
+}
 h5 {
     font-family: "minion-pro-caption", serif;
     font-weight: 400;
@@ -164,7 +206,74 @@ h5 {
 }
 
 
+/*-------CPH-DOX-----*/
+#tema3{
+    width: 100%;
 
+}
+.sectionwrapper_cph{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.column_cph_link{
+    width: 50%;
+    margin: 0 auto;
+    background-color:rgba(241, 109, 31, 0.1);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 60px;
+
+}
+.column_cph{
+    width: 40%;
+    margin: 0 auto;
+    background-color:white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 60px;
+}
+
+.hs-responsive-embed-youtube iframe {
+    width: 100%!important;
+    height: 100%!important;
+
+
+}
+
+.hs-responsive-embed-youtube {
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+
+#tema3 h1{
+    font-family: "minion-pro-caption", serif;
+    font-size: 2em;
+    font-style: normal;
+    text-align: center;
+    color: rgba(241, 109, 31, 0.51);
+}
+
+#tema3 h2{
+    font-family: "minion-pro-caption", serif;
+    font-size: 1.4em;
+    font-style: normal;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.42);
+}
+
+#tema3 p{
+    font-family: 'Avenir', sans-serif;
+    font-size:1em;
+    font-style: normal;
+    text-align: center;
+}
 
 
 /*------PORTO-----*/
@@ -220,14 +329,36 @@ h5 {
             padding: 0px 0px 0px 0px;
     }
 
-
-.column_p{
+    .column_p{
     width: 100%;
    margin-top: 10px;
     margin-left: 13px;
 }
 
+    .sectionwrapper_cph{
+        width: 100%;
+         margin-top: 10px;
+    margin-left: 13px;
+        text-align: center;
+    }
 
+    .column_cph_link{
+          margin-top: 20px;
+        margin-left: 0.1px;
+        background-color: white;
+
+    }
+
+     .hs-responsive-embed-youtube {
+       width: 200px;
+         margin: 0 auto;
+    }
+
+
+
+    .hs-responsive-embed-youtube{
+
+    }
 
 
 }
