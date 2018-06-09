@@ -397,8 +397,9 @@ footer nav a{
     }
 
     .column_p{
+        width: 100%;
    margin-top: 10px;
-    margin-left: 13px;
+        margin-left: 13px;
 }
 
     .sectionwrapper_cph{
@@ -408,7 +409,8 @@ footer nav a{
 
 
     .column_cph {
-            margin-bottom: 0;
+        width: 60%;
+
 
     }
 
@@ -418,6 +420,9 @@ footer nav a{
          margin: 0 auto;
     }
 
+    .column_cph_tilbage{
+        margin-left: 33%;
+    }
 
 
 
