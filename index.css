@@ -36,6 +36,7 @@ header {
     border-radius: 0.4em;
     color: black;
     margin-top: 1em;
+    margin-bottom: 3em;
 }
 .links a:hover {
     background-color: black;
@@ -236,9 +237,9 @@ footer nav a{
     width: 40%;
     margin: 0 auto;
     background-color:white;
-    text-align: center;
     padding: 10px 10px 10px 10px;
     margin-bottom: 30px;
+    justify-content: center;
 }
 
 .hs-responsive-embed-youtube iframe {
@@ -305,15 +306,12 @@ footer nav a{
     margin-bottom: 1px;
 }
 
-#tema3 a {
-      font-family: "minion-pro-caption", serif;
-    font-weight: 400;
-    font-style: normal;
+#tema3 a{
+    font-family: "minion-pro-caption", serif;
+    font-size: 1em;
+    text-align: left;
     color: #EC6522;
     text-decoration: none;
-
-
-
 }
 
 #tema3 ul{
@@ -332,32 +330,7 @@ footer nav a{
 
 
 
-#dreng_sprite{
-    position: absolute;
-    background-image: url(walk_hovedpersonen-01%20copy.svg);
-    background-size: 400% 100%;
-    width: 14w;
-    height:50vw;
-}
 
-
-.dreng_movein{
-    animation-name: movein;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-}
-
-@keyframes movein{
-     from {
-        right: 30vw;
-    }
-    to {
-        right: 80vw;
-    }
-
-}
 
 
 
@@ -380,7 +353,7 @@ footer nav a{
 .content_p {
     background-color: white;
     padding: 20px 20px 20px 20px;
-    margin-top: 50px;
+
 }
 
 #porto h3{
@@ -391,6 +364,8 @@ footer nav a{
     margin-bottom: 1px;
     text-align: center;
 }
+
+
 
 
 /*-----MOBIL SITE-----*/
