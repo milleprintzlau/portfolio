@@ -328,6 +328,38 @@ footer nav a{
 
 
 
+/*------CLICK&DEL-----*/
+
+
+
+#dreng_sprite{
+    position: absolute;
+    background-image: url(walk_hovedpersonen-01%20copy.svg);
+    background-size: 400% 100%;
+    width: 14w;
+    height:50vw;
+}
+
+
+.dreng_movein{
+    animation-name: movein;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes movein{
+     from {
+        right: 30vw;
+    }
+    to {
+        right: 80vw;
+    }
+
+}
+
+
 
 /*------PORTO-----*/
 
