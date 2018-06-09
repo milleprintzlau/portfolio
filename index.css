@@ -348,10 +348,17 @@ footer nav a{
 .content_p {
     background-color: white;
     padding: 20px 20px 20px 20px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
-
+#porto h3{
+    font-family: "minion-pro-caption", serif;
+    font-size: 1.5em;
+    font-style: normal;
+    color: rgba(240, 116, 66, 0.46);
+    margin-bottom: 1px;
+    text-align: center;
+}
 
 
 /*-----MOBIL SITE-----*/
