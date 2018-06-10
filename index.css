@@ -407,13 +407,12 @@ font-family: 'Dosis', sans-serif;
         margin-left: 130px;
     }
 
-   .content {
-            padding: 0px 0px 0px 0px;
+.content_p {
+         margin: 0 auto;
     }
 
     .column_p{
         width: 100%;
-   margin-top: 10px;
         margin-left: 13px;
 }
 
@@ -440,13 +439,13 @@ font-family: 'Dosis', sans-serif;
          margin: 0 auto;
     }
 
-    .column_cph_tilbage{
-        margin-left: 33%;
-    }
 
   .column_cph_link{
-        margin: 0;
+        margin: 30px auto;
+
     }
+
+
 
 
 
