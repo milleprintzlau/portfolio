@@ -8,7 +8,7 @@ body {
 }
 
 p {
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Dosis', sans-serif;
 
 
 }
@@ -30,7 +30,7 @@ header {
 .links a {
    display: inline-block;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Dosis', sans-serif;
     padding: 0.4em 0.8em;
     border: 0.1em;
     border-radius: 0.4em;
@@ -121,15 +121,14 @@ footer nav a{
     margin: 0 auto;
     text-align: center;
     padding: 10px 10px 10px 10px;
-
-    font-family: "minion-pro-caption", serif;
+font-family: 'Dosis', sans-serif;
     font-weight: 400;
     font-style: normal;
 
 }
 
 #CV h5{
-    font-family: "minion-pro-caption", serif;
+   font-family: 'Dosis', sans-serif;
     font-weight: 300;
     font-style: normal;
     text-align: center;
@@ -140,7 +139,7 @@ footer nav a{
 
 #CV h4{
     margin: 0;
-     font-family: "minion-pro-caption", serif;
+  font-family: 'Dosis', sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
@@ -148,7 +147,7 @@ footer nav a{
 }
 
 #CV h1{
-    font-family: "minion-pro-caption", serif;
+ font-family: 'Dosis', sans-serif;
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -157,7 +156,7 @@ footer nav a{
 }
 
 #CV h2{
-       font-family: "minion-pro-caption", serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -185,7 +184,8 @@ footer nav a{
     font-size: 16px;
     cursor: pointer;
     letter-spacing: 1px;
-    position: relative;
+font-family: 'Dosis', sans-serif;
+    margin: 0 auto;
 
 
 
@@ -239,8 +239,9 @@ footer nav a{
     background-color:white;
     padding: 10px 10px 10px 10px;
     margin-bottom: 30px;
-    justify-content: center;
 }
+
+
 
 .hs-responsive-embed-youtube iframe {
     width: 100%!important;
@@ -262,7 +263,7 @@ footer nav a{
 
 
 #tema3 h1{
-    font-family: "minion-pro-caption", serif;
+  font-family: 'Dosis', sans-serif;
     font-size: 2em;
     font-style: normal;
     color: rgba(241, 109, 31, 0.51);
@@ -271,7 +272,7 @@ footer nav a{
 }
 
 #tema3 h2{
-    font-family: "minion-pro-caption", serif;
+font-family: 'Dosis', sans-serif;
     font-size: 1.4em;
     font-style: normal;
     text-align: center;
@@ -281,7 +282,7 @@ footer nav a{
 
 #tema3 h3{
 
-    font-family: "minion-pro-caption", serif;
+font-family: 'Dosis', sans-serif;
     font-size: 1em;
     font-style: normal;
     text-align:center;
@@ -292,14 +293,14 @@ footer nav a{
 
 
 #tema3 p{
-    font-family: 'Avenir', sans-serif;
-    font-size:1em;
+font-family: 'Dosis', sans-serif;
+    font-size:1.5em;
     font-style: normal;
     text-align: left;
 }
 
 #tema3 h5 {
-        font-family: "minion-pro-caption", serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 4em;
     font-style: normal;
     color: rgba(240, 116, 66, 0.81);
@@ -307,7 +308,7 @@ footer nav a{
 }
 
 #tema3 a{
-    font-family: "minion-pro-caption", serif;
+font-family: 'Dosis', sans-serif;
     font-size: 1em;
     text-align: left;
     color: #EC6522;
@@ -318,19 +319,11 @@ footer nav a{
     margin: 0 auto;
     text-align: left;
 
-     font-family: 'Avenir', sans-serif;
-    font-weight: 400;
+    font-family: 'Dosis', sans-serif;
+  font-size: 1em;
     font-style: normal;
 
 }
-
-
-
-/*------CLICK&DEL-----*/
-
-
-
-
 
 
 
@@ -357,7 +350,7 @@ footer nav a{
 }
 
 #porto h3{
-    font-family: "minion-pro-caption", serif;
+font-family: 'Dosis', sans-serif;
     font-size: 1.5em;
     font-style: normal;
     color: rgba(240, 116, 66, 0.46);
