@@ -1,5 +1,6 @@
 img {
     width: 100%;
+    margin: 60px auto;
 }
 
 body {
@@ -9,6 +10,34 @@ body {
 
 p {
     font-family: 'Dosis', sans-serif;
+
+
+}
+
+ iframe{
+     display: flex;
+      flex-wrap: wrap;
+
+        width: 600px;
+        height: 400px;
+
+    }
+
+#tilbage {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.52);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-family: 'Dosis', sans-serif;
+    margin: 50px auto;
+
+
 
 
 }
@@ -121,7 +150,7 @@ footer nav a{
     margin: 0 auto;
     text-align: center;
     padding: 10px 10px 10px 10px;
-font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: 400;
     font-style: normal;
 
@@ -175,21 +204,7 @@ font-family: 'Dosis', sans-serif;
 
 }
 
-#tilbage {
 
-    background-color: rgba(0, 0, 0, 0.52);
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    letter-spacing: 1px;
-font-family: 'Dosis', sans-serif;
-    margin: 0 auto;
-
-
-
-}
 
 #bird {
     background-image: url(bird-01%20copy.svg);
@@ -238,7 +253,7 @@ font-family: 'Dosis', sans-serif;
     margin: 0 auto;
     background-color:white;
     padding: 10px 10px 10px 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 
@@ -268,6 +283,7 @@ font-family: 'Dosis', sans-serif;
     font-style: normal;
     color: rgba(241, 109, 31, 0.51);
     margin-bottom: 0;
+    text-align: center;
 
 }
 
@@ -282,11 +298,12 @@ font-family: 'Dosis', sans-serif;
 
 #tema3 h3{
 
-font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 1em;
     font-style: normal;
-    text-align:center;
+    text-align:left;
     color:rgba(0, 0, 0, 0.42);
+    padding: 15px 0px 0px 0px;
 
 
 }
@@ -304,15 +321,16 @@ font-family: 'Dosis', sans-serif;
     font-size: 4em;
     font-style: normal;
     color: rgba(240, 116, 66, 0.81);
-    margin-bottom: 1px;
+    margin: 0;
+    text-align: center;
 }
 
 #tema3 a{
 font-family: 'Dosis', sans-serif;
-    font-size: 1em;
-    text-align: left;
+    font-size: 1.5em;
     color: #EC6522;
     text-decoration: none;
+
 }
 
 #tema3 ul{
@@ -385,6 +403,7 @@ font-family: 'Dosis', sans-serif;
         margin-top: 20px;
         margin-left: 130px;
     }
+
    .content {
             padding: 0px 0px 0px 0px;
     }
@@ -407,6 +426,11 @@ font-family: 'Dosis', sans-serif;
 
     }
 
+    iframe{
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+    }
 
      .hs-responsive-embed-youtube {
        width: 100%;
@@ -415,6 +439,10 @@ font-family: 'Dosis', sans-serif;
 
     .column_cph_tilbage{
         margin-left: 33%;
+    }
+
+    #tilbage{
+        margin: 0;
     }
 
 
