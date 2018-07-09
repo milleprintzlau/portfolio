@@ -3,6 +3,8 @@ img {
     margin: 60px auto;
 }
 
+
+
 body {
     display: flex;
     flex-wrap: wrap;
@@ -206,6 +208,17 @@ footer nav a{
 
 }
 
+#porto hr{
+        display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-width: 3px;
+    border-color:rgba(255, 255, 255, 0);
+    color: white;
+}
+
 
 
 #bird {
@@ -379,6 +392,17 @@ font-family: 'Dosis', sans-serif;
     text-align: center;
 }
 
+#porto img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+
+}
+
+#porto img:hover {
+    opacity: 3.0;
+}
+
 
 
 
@@ -443,6 +467,16 @@ font-family: 'Dosis', sans-serif;
   .column_cph_link{
         margin: 30px auto;
 
+    }
+
+    #porto hr{
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    border-width: 0px;
+    border-color: rgba(241, 109, 31, 0.39);
     }
 
 
